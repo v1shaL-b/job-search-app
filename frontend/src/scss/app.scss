@@ -1,0 +1,44 @@
+header {
+    padding: 5rem;
+    background-image: url(../img/business.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+
+    h1{
+        text-transform: uppercase;
+    }
+    h2 {
+        color: #E0A800; 
+        font-size: 1.2rem;
+        border-bottom: dashed;
+    }
+
+    form { 
+        margin-top: 55px;
+        max-width: 400px;
+    }
+}
+
+.card {
+    margin: 25px 0;
+    border: double #E0A800 5px;    
+}
+.card-title{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+
+.loading-element {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+    &.loading {
+        display: block;
+    }
+}
+    

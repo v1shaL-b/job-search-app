@@ -1,0 +1,41 @@
+header {
+  padding: 5rem;
+  background-image: url(/business.642803c6.jpg);
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 100%;
+}
+header h1 {
+  text-transform: uppercase;
+}
+header h2 {
+  color: #E0A800;
+  font-size: 1.2rem;
+  border-bottom: dashed;
+}
+header form {
+  margin-top: 55px;
+  max-width: 400px;
+}
+
+.card {
+  margin: 25px 0;
+  border: double #E0A800 5px;
+}
+
+.card-title {
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.loading-element {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: none;
+}
+.loading-element.loading {
+  display: block;
+}
+
+/*# sourceMappingURL=/app.a651375d.css.map */
